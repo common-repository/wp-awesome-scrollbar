@@ -1,0 +1,35 @@
+.clrFix{clear:both; margin:25px 0}
+.main_wrapper {
+  border: 1px solid #ccc;
+  width: 95%;
+  display: block;
+  overflow: hidden;
+  margin: 2%;
+}
+.scrollbar_content {
+  padding: 30px 20px;
+  width: 70%;
+  float:left;
+}
+.scrollbar_sidebar{
+  padding: 30px 20px;
+  width: 20%;
+  float:left;
+}
+.label_name {
+  float: left;
+  width: 180px;
+}
+input[type="checkbox"], input[type="text"], select{
+	width:180px;
+}
+.label_radio {
+  display: inline-block;
+  width: 70px;
+  padding-left:200px;
+}
+.main_wrapper h2{padding:20px;}
+
+input + .iris-picker {
+  margin-left: 177px;
+}
